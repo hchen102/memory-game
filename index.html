@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <h2>Moves: <span id = "countMoves">0</span></h2>
+    <h2>Guesses: <span id = "countGuesses">0</span></h2>
+    <h2>Matches: <span id = "countMatches">0</span></h2>
+    <div id="overlay" class="gameOverlay"><span class = 'gameOverlayText'><input id = 'startGameButton' type = button value = "Start Game"></button></span></div>
+
+    <div id="game">
+    </div>
+    <h3>High score: Guesses - <span id = "storedGuesses">0</span> Matches - <span id = "storedMatches">0</span> (accuracy rate: <span id = "storedAccuracyRate">0</span>)</h3>
+    <input type=button id = buttonResetGame value='Reset Game'></input>
+    <input type=button id = buttonResetAll value='Reset All Data'></input>
+    <script src="script.js"></script>
+  </body>
+</html>
