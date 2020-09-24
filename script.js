@@ -91,7 +91,7 @@ function handleCardClick(event) {
   // you can use event.target to see which element was clicked
   console.log("you just clicked", event.target);
   console.log("its ID is: " + event.target.id);
-  document.querySelector('.gameOverlayText').innerText = "Try again, pick yourself up and try again..."
+  document.querySelector('.gameOverlayText').innerText = "nope."
   if (COLORS.indexOf(event.target.getAttribute('color'))>-1) {
     document.getElementById('countMoves').innerText++
   }
