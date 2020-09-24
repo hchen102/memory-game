@@ -1,4 +1,3 @@
 # memory-game
 
-A simple matching game exercise
-https://hchen102.github.io/memory-game/ to try it.
+A simple matching game exercise. Here's a link: https://hchen102.github.io/memory-game/
